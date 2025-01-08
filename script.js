@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Periksa apakah pengguna sudah login
     if (window.location.href.includes("dashboard.html") && !localStorage.getItem("isLoggedIn")) {
       // Jika belum login, arahkan ke halaman login
-      window.location.href = "index.html";
+      window.location.href = "dashboard.html";
     }
   
     // Tambahkan event listener pada tombol logout
